@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    datLaiBtn.addEventListener('click', () => {
+    datLaiBtn.addEventListener('click', function() {
         if (isQuay) return;
         betItems.forEach(item => {
             item.setAttribute('data-bet', 0);
